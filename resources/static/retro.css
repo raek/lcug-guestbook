@@ -1,0 +1,43 @@
+body
+{
+    background-image: url(space.gif);
+    color: #FFFF80;
+    text-align: center;
+}
+
+table
+{
+    border-width: 2px;
+    border-style: outset;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th
+{
+    border-width: 1px;
+    border-style: inset;
+}
+
+td
+{
+    border-width: 1px;
+    border-style: inset;
+}
+
+img#counter
+{
+    width: 150px;
+}
+
+#followdiv
+{
+    position: absolute;
+    overflow: hidden;
+    visibility: hidden;
+    z-index:999;
+    /*width:20px;
+    height:15px;
+    background-color:#ffffcc;*/
+}

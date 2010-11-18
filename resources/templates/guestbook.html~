@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Räx Gästbok</title>
+    <link rel="stylesheet" href="static/retro.css" />
+    <script type="text/javascript" src="static/mouse.js">
+    </script>
+  </head>
+  <body>
+    <img src="static/r.gif" />
+    <img src="static/@.gif" />
+    <img src="static/x_.gif" />
+    <img src="static/sdfkj.gif" />
+    <img src="static/@.gif" />
+    <img src="static/s_.gif" />
+    <img src="static/t_.gif" />
+    <img src="static/b_.gif" />
+    <img src="static/o_.gif" />
+    <img src="static/k_.gif" />
+    <p><img src="static/under_construction.gif" alt="Under Construction" /></p>
+    <p>
+      <form method="POST">
+        <table>
+	  <tr>
+	    <th colspan="2">
+	      <h2>Nytt inlägg</h2>
+	    </th>
+	  </tr>
+          <tr>
+            <th>Namn:</th>
+            <td><input name="name" type="text" /></td>
+          </tr>
+          <tr>
+            <th>Meddelande:</th>
+            <td><textarea name="text" cols="40" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <th>Favoritdjur:</th>
+            <td><input name="captcha" type="text" /></td>
+          </tr>
+          <tr>
+            <th><img src="static/email_planet.gif" /></th>
+            <td><input type="submit" value="Skicka fråga" /></td>
+          </tr>
+        </table>
+      </form>
+    </p>
+    <hr />
+    <table>
+      <tr>
+	<td>
+	  <img src="static/torch.gif" />
+	</td>
+	<td>
+	  <h2>De senaste inläggen</h2>
+	</td>
+	<td>
+	  <img src="static/torch.gif" />
+	</td>
+      </tr>
+    </table>
+    <div class="no-entries">
+      <p>Det finns inga inlägg i gästboken.</p>
+      <hr />
+    </div>
+    <div class="entry">
+      <h3 class="name">Namn Namnsson</h3>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Mauris bibendum, lectus nec aliquam rutrum, nisi elit
+        dignissim dolor, eget rutrum nulla lectus eget augue. Cras sit
+        amet risus justo. Maecenas odio tortor, mattis sed mattis
+        eget, suscipit id dui. Nulla ultricies congue risus at
+        ultrices. Sed sollicitudin diam eu erat tempor eu posuere ante
+        facilisis. Ut leo purus, dignissim in elementum eu, adipiscing
+        sit amet nunc.
+      </p>
+      <hr />
+    </div>
+    <table>
+      <tr>
+	<th>
+	  Besökare:
+	</th>
+	<td>
+	  <img id="counter" src="static/digital_counter.gif" />
+	</td>
+      </tr>
+    </table>
+    <div id="followdiv">
+      <img src="static/cat_2.gif" />
+    </div>
+  </body>
+</html>
